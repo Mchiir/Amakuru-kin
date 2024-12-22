@@ -1,0 +1,50 @@
+tangaza_amakuru("Urakaze neza kuri Amakuru-kin")
+
+reka amazina;
+reka imyaka;
+
+porogaramu_ntoya ongeraUmuntu(){
+    amazina = injiza_amakuru("Shyiramo amazina: ")
+    imyaka = injiza_amakuru("Shyiramo imyaka: ")
+    tangaza_amakuru("Umuntu yongerewe neza!")
+    tangaza_amakuru("\n")
+}
+
+porogaramu_ntoya tangaUrutonde(){
+    tangaza_amakuru("Urutonde rw'abantu: ")
+    tangaza_amakuru("1. ", amazina ,", Imyaka: ", imyaka)
+    tangaza_amakuru("\n")
+}
+
+reka muyobozi = nibyo
+
+subiramo_niba(muyobozi){
+    tangaza_amakuru("1. Ongera Umuntu")
+    tangaza_amakuru("2. Reba Urutonde")
+    tangaza_amakuru("3. Sohoka")
+    tangaza_amakuru("\n")
+
+    reka abantu = {}
+
+    ntahinduka amahitamo = injiza_amakuru("Hitamo: ")
+    tangaza_amakuru("\n")
+    niba(ubwoko(amahitamo) != "number"){
+        hagarara(1)
+    }
+
+    niba(amahitamo == 1){
+        ongeraUmuntu()
+    }nanone_niba(amahitamo == 2){
+        tangaUrutonde()
+    }nanone_niba(amahitamo == 3){
+        muyobozi = sibyo
+    }niba_byanze{
+    tangaza_amakuru("Ibyo washyizemo sibyo. ongera ugerageze")
+    tangaza_amakuru("\n")
+    }
+    
+}
+
+tangaza_amakuru("Murabehooo! Ni saa ", KIN_IGIHE.isaha())
+tangaza_amakuru("\n")
+hagarara(0)
