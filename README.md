@@ -1,37 +1,59 @@
-<center font="30px">Project: "Amakuru-kin"</center>
+# Amakuru kin project
 
-Create a basic application that manages and displays user information using key concepts like input/output, conditions, loops, and functions.
+This project implements a basic application that manages and displays user information using key concepts like input/output, conditions, loops, and functions.
 
-# Features to Implement
+Features Implemented
 
-    User Registration
+1. User Registration
 
 Accept user details (e.g., name, age, location).
-Validate inputs (e.g., age should be a number).
-Store information in an object or list.
-Menu System
 
-Provide options (e.g., "Add User," "View Users," "Exit").
+Validate inputs (e.g., age is checked to ensure it is a number).
 
-Handle invalid inputs gracefully.
+Store user information in a structured object or list.
 
-    Data Manipulation
+2. Menu System
 
-Allow adding, updating, or deleting user information.
+Provide a simple interactive menu with options like:
 
-    Custom Functions
+"Add User"
 
-Create reusable functions like ongeraUmuntu() (add a user) or tangaUrutonde() (list users).
+"View Users"
 
-# Advanced Options (Optional)
+"Exit"
 
-Integrate date and time for logging actions using the KIN_IGIHE module.
-Export user data to a simple text file (if file handling is part of the language).
+Handle invalid inputs gracefully to ensure a smooth user experience.
 
-# Why This Project?
+3. Data Manipulation
 
-✅Learn Core Syntax: Reinforces foundational concepts in the language.
-✅Practical: Builds a real-world system to organize information.
-✅Scalable: Can add features like file exports or integrations with other modules in the future.
+Add new user details dynamically.
 
-# Happy codding with Kin lang!!
+View the list of registered users with their details.
+
+4. Custom Functions
+
+Reusable functions for core operations such as:
+
+ongeraUmuntu() for adding a user.
+
+tangaUrutonde() for listing users.
+
+Advanced Features
+
+1. Date and Time Integration
+
+Use the KIN_IGIHE module to log actions with real-time timestamps.
+
+2. Data Export (Optional)
+
+Export user data to a simple text file for persistent storage.
+
+Why This Project?
+
+✅ Learn Core Syntax: Reinforces foundational concepts in the Kin language.
+
+✅ Practical Application: Builds a real-world system to organize and manage information.
+
+✅ Scalability: Designed to easily incorporate additional features like file exports or integrations with other modules.
+
+Happy Coding with Kin Lang!
