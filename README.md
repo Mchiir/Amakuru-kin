@@ -1,4 +1,4 @@
-<center font="30px">Project: "Kin-Amakuru Tracker"</center>
+<center font="30px">Project: "Amakuru-kin"</center>
 
 Create a basic application that manages and displays user information using key concepts like input/output, conditions, loops, and functions.
 
