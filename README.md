@@ -1,6 +1,6 @@
 # Amakuru kin project
 
-This project implements a basic application that manages and displays user information using key concepts like input/output, conditions, loops, and functions.
+This project implements a basic application that manages and displays user information leveraging [Kin lang](https://github.com/kin-lang) features like input/output, conditions, loops, and functions.
 
 Features Implemented
 
